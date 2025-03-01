@@ -1,0 +1,19 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Contact from '/src/components/Contact.astro';
+import { Image } from 'astro:assets';
+import mig from "../assets/images/mig.webp";
+
+---
+
+<MainLayout>
+<section class="flex flex-col items-center justify-center h-screen text-center relative">
+<div class="flex flex-col items-center">
+<!-- Juster størrelsen på billedet her -->
+<img src={mig.src} alt="mig" class="w-32 h-auto" />
+<p>første projekt</p>
+</div>
+</section>
+</MainLayout>

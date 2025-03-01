@@ -1,0 +1,23 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { Image } from 'astro:assets';
+import mig from "../assets/images/mig.webp";
+---
+
+<MainLayout>
+<section class="flex flex-col items-center justify-center h-screen text-center relative">
+<div class="flex flex-col items-center space-y-3">
+<!-- Telefon link -->
+<a href="tel:+4531393124" class="block text-lg text-black my-1">+45 31393124</a>
+
+<!-- E-mail link -->
+<a href="mailto:laura08@hotmail.dk" class="block text-lg text-black my-1">laura08@hotmail.dk</a>
+
+<!-- LinkedIn link (erstat 'din_linkedin_profil' med din LinkedIn URL) -->
+<a href="https://www.linkedin.com/in/laura-marie-moldrup-hollesen-933524353/" class="block text-lg text-black my-1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</div>
+</section>
+</MainLayout>
+
