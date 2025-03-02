@@ -5,11 +5,33 @@ import Footer from '../components/Footer.astro';
 import { Image } from 'astro:assets';
 import mig from "../assets/images/mig.webp";
 ---
-
 <MainLayout>
-<section class="flex flex-col items-center justify-center h-screen text-center relative">
-<div class="flex flex-col items-center space-y-3">
-<p>bla</p>
+  <section class="flex flex-col items-center justify-center min-h-screen text-center px-6">
+    <div class="max-w-2xl flex flex-col items-center space-y-6">
+      <h1>(about)</h1>
+      
+      <p class="leading-relaxed">
+        Jeg har passion for design i flere formater, især grafisk design og visuel kommunikation.  
+        Det omfatter alt fra konceptudvikling, skitsering til prototyper og færdige webløsninger.  
+        Jeg har altid meget fokus på detaljer, æstetik og funktionalitet.
+      </p>
+
+      <p class="leading-relaxed">
+        Med en uddannelse som multimediedesigner håber jeg at udvikle mine kompetencer yderligere  
+        inden for frontend-design, programmering, brugeroplevelser, indholdsproduktion,  
+        teknologi og digital forretning. Jeg ser frem til at kombinere kreativitet og tekniske  
+        færdigheder for at skabe innovative digitale løsninger.
+      </p>
+
+      <!-- Luft mellem "about" og uddannelsesdelen -->
+      <div class="mt-8 border-t border-gray-300 w-3/4"></div>
+
+     <div class="space-y-3">
+  <p>2024-2026 Multimediedesign, KEA</p>
+  <p>2023-2023 VERA Skole for Kunst & Design</p>
+  <p>2018-2019 Design 10. klasse, Textilskolen</p>
 </div>
-</section>
+
+    </div>
+  </section>
 </MainLayout>

@@ -5,19 +5,27 @@ import Footer from '../components/Footer.astro';
 import { Image } from 'astro:assets';
 import mig from "../assets/images/mig.webp";
 ---
-
 <MainLayout>
-<section class="flex flex-col items-center justify-center h-screen text-center relative">
-<div class="flex flex-col items-center space-y-3">
-<!-- Telefon link -->
-<a href="tel:+4531393124" class="block text-lg text-black my-1">+45 31393124</a>
+  <section class="flex flex-col items-center justify-center h-screen text-center relative">
+    <div class="flex flex-col items-center space-y-5">
+      <!-- Telefon link -->
+      <a href="tel:+4531393124" class="block text-lg text-black transition-all duration-300 hover:underline hover:text-blue-600">
+        +45 31 39 31 24
+      </a>
 
-<!-- E-mail link -->
-<a href="mailto:laura08@hotmail.dk" class="block text-lg text-black my-1">laura08@hotmail.dk</a>
+      <!-- E-mail link -->
+      <a href="mailto:laho0004@stud.kea.dk" class="block text-lg text-black transition-all duration-300 hover:underline hover:text-blue-600">
+        laho0004@stud.kea.dk
+      </a>
 
-<!-- LinkedIn link (erstat 'din_linkedin_profil' med din LinkedIn URL) -->
-<a href="https://www.linkedin.com/in/laura-marie-moldrup-hollesen-933524353/" class="block text-lg text-black my-1" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-</div>
-</section>
+      <!-- LinkedIn link -->
+      <a href="https://www.linkedin.com/in/laura-marie-moldrup-hollesen-933524353/" 
+         class="block text-lg text-black transition-all duration-300 hover:underline hover:text-blue-600" 
+         target="_blank" rel="noopener noreferrer">
+        LinkedIn
+      </a>
+    </div>
+  </section>
 </MainLayout>
+
 
